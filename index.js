@@ -1,6 +1,6 @@
 function mainTask() {
   let var1 = prompt('var1:', '0');
-  let var2 = prompt('var2:', 9999999999999n);
+  let var2 = prompt('var2:', '9999999999999');
   let var3 = prompt('var3:', 'true');
   let var4 = prompt('var4:', 'word');
   document.getElementById('text1').value = var1;
@@ -9,7 +9,7 @@ function mainTask() {
   document.getElementById('text4').value = var4;
 
   var1 = Number(var1);
-  var2 = 99999999999999999999n;
+  var2 = BigInt(var2);
   var3 = Boolean(var3);
   var4 = String(var4);
 
