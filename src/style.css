@@ -1,0 +1,50 @@
+:root {
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+.container {
+  padding: 20px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.task-form {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.elements:nth-child(1) {
+  width: 100%;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.elements {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.task-3 {
+  place-items: start;
+}
+
+.task-4 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.task-form.task-4 select {
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 20px;
+}

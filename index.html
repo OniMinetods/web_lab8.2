@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="index.js"></script>
+    <title>lab 8</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="task-form task-1">
+        <input
+          type="button"
+          value="Задание № 1-2"
+          class="elements"
+          onclick="mainTask()"
+        />
+        <label for="text1"> Переменная var1 </label>
+        <input type="text" id="text1" class="elements" />
+        <label for="text2"> Переменная var2 </label>
+        <input type="text" id="text2" class="elements" />
+        <label for="text3"> Переменная var3 </label>
+        <input type="text" id="text3" class="elements" />
+        <label for="text4"> Переменная var4 </label>
+        <input type="text" id="text4" class="elements" />
+      </form>
+      <form class="task-form task-2">
+        <input
+          type="button"
+          value="Задание № 5"
+          class="elements"
+          onclick="task5()"
+        />
+        <label for="text1"> A= </label>
+        <input type="text" id="textA" class="elements" />
+        <label for="text2"> B= </label>
+        <input type="text" id="textB" class="elements" />
+        <label for="text3"> C= </label>
+        <input type="text" id="textC" class="elements" />
+      </form>
+      <form class="task-form task-3">
+        <input
+          type="button"
+          value="Задание № 6"
+          class="elements"
+          onclick="task6()"
+        />
+        <label for="radioFor"> Вывод результата с помощью For </label>
+        <input
+          type="radio"
+          id="radioFor"
+          name="loop"
+          value="for"
+          class="loop"
+          checked
+        />
+        <label for="radioWhile"> Вывод результата с помощью While </label>
+        <input
+          type="radio"
+          id="radioWhile"
+          name="loop"
+          value="while"
+          class="loop"
+        />
+        <label for="radioDoWhile"> Вывод результата с помощью Do-While </label>
+        <input
+          type="radio"
+          id="radioDoWhile"
+          name="loop"
+          value="doWhile"
+          class="loop"
+        />
+        <label for="textFor"> Вывод результата с помощью For </label>
+        <input type="text" id="textFor" class="elements" />
+        <label for="textWhile"> Вывод результата с помощью While </label>
+        <input type="text" id="textWhile" class="elements" />
+        <label for="textDoWhile"> Вывод результата с помощью Do-While </label>
+        <input type="text" id="textDoWhile" class="elements" />
+      </form>
+      <form class="task-form task-4">
+        <input
+          type="button"
+          value="Задание № 7"
+          class="elements"
+          onclick="task7()"
+        />
+        <label for="radioFor"> Выберите, пожалуйста, погоду </label>
+        <select id="selectWeather">
+          <option>Солнечная</option>
+          <option>Дождливая</option>
+          <option>Снежная</option>
+          <option>Ветреная</option>
+        </select>
+      </form>
+    </div>
+  </body>
+</html>
